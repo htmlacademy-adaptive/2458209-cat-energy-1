@@ -16,28 +16,19 @@
         <button class="main-navigation__toggle" type="button">
           <span class="visually-hidden">Показывает меню</span>
         </button>
-        <div class="main-navigation__wrapper">
-          <button class="main-navigation__toggle-close" type="button">
-            <span class="visually-hidden">Закрывает меню</span>
-          </button>
+        <div class="main-navigation__wrapper nav-container">
+          <ul class="main-navigation__list">
+            <li class="main-navigation__item">
+              <a href="#">Главная</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="/source/catalog.html">Каталог продукции</a>
+            </li>
+            <li class="main-navigation__item main-navigation__item--current">
+              <a href="/source/form.html">Подбор программы</a>
+            </li>
+          </ul>
         </div>
-        <ul class="main-navigation__list">
-          <li class="main-navigation__item main-navigation__item--current">
-            <a href="#">Главная</a>
-          </li>
-          <li class="main-navigation__item">
-            <a href="/source/catalog.html">Каталог продукции</a>
-          </li>
-          <li class="main-navigation__item">
-            <a href="/source/form.html">Подбор программы</a>
-          </li>
-          <li class="main-navigation__item">
-            <img src="/source/img/chicken-food-cats.jpg" height="270" width="280" alt="Питание для котов c курочкой.">
-          </li>
-          <li class="main-navigation__item">
-            <a class="button button-choose" href="#">подобрать программу</a>
-          </li>
-        </ul>
       </nav>
     </header>
     <main class="main-container">
@@ -154,10 +145,10 @@
                 </li>
               </ul>
             </fieldset>
-            <div class="program-selection__form-wrapper">
-              <button class="button program-selection__button-application" type="submit">Отправить заявку</button>
-              <b class="program-selection__form-text">* — Обязательные поля</b>
-            </div>
+          <div class="program-selection__form-wrapper">
+            <button class="button program-selection__button-application" type="submit">Отправить заявку</button>
+            <b class="program-selection__form-text">* — Обязательные поля</b>
+          </div>
         </form>
       </section>
       <section class="location">
