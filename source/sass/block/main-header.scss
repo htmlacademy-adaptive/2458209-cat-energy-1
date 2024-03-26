@@ -1,4 +1,17 @@
 .main-header {
-display: flex;
 padding: 13px 21px;
+position: relative;
+border-bottom: 1px solid $n-bg-color;
+}
+
+.main-header-list {
+  @include list-reset;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

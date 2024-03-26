@@ -8,49 +8,6 @@
   padding-bottom: 25px;
 }
 
-.fieldset__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.fieldset__item {
-  padding-bottom: 14px;
-}
-
-.fieldset__title {
-  font-size: 24px;
-  line-height: 26px;
-  font-weight: 400;
-  font-family: "Oswald", sans-serif;
-  color: #000000;
-  padding-bottom: 45px;
-}
-
-.fieldset__title-another {
-  padding-top: 45px;
-}
-
-.fieldset__title--distance {
-  padding-bottom: 35px;
-}
-
-.fieldset__label {
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 400;
-  font-family: "Oswald", sans-serif;
-  color: #444444;
-}
-
-.fieldset__control {
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 400;
-  font-family: "Oswald", sans-serif;
-  color: #444444;
-}
-
 .form__wrapper {
 display: flex;
 flex-direction: column;

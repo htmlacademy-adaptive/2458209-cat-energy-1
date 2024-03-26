@@ -6,10 +6,10 @@
   line-height: 20px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #ffffff;
+  color: $bg-color;
   display: inline-block;
-  background-color: #68b738;
+  background-color: $btn-bg-color;
   border: none;
-  font-family: "Oswald", sans-serif;
+  font-family: $font;
   cursor: pointer;
 }

@@ -1,8 +1,33 @@
+.location {
+  width: 320px;
+}
+
 .location__wrapper {
   display: flex;
   align-items: center;
+  margin-top: 35px;
   padding: 26px 20px 26px 20px;
 }
+
 .location__wrapper--another-background {
-  background-color: #f2f2f2;
+  background-color: $a-bg-color;
+}
+
+.location__title {
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: $font;
+  color: $text-color_1;
+}
+
+.location__link {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: $text-color_4;
+  text-transform: uppercase;
 }
