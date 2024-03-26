@@ -3,7 +3,7 @@
 }
 
 .additional-products__promo {
- position: relative;
+  position: relative;
 }
 
 .additional-products__promo::after {
@@ -99,7 +99,6 @@
   text-transform: uppercase;
   font-family: $font;
   color: $text-color_2;
-
 }
 
 .additional-products__item-text {
@@ -154,4 +153,3 @@
   left: 100px;
   z-index: 2;
 }
-
